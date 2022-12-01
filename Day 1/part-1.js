@@ -12,7 +12,6 @@ function syncReadFile(filename) {
 const getMax = (a, b) => Math.max(a, b);
 
 const fileData = syncReadFile(`${__dirname}/calories.txt`);
-console.log(fileData)
 let finalArray = [];
 let initialValue = 0;
 fileData.reduce((accumulator, currentValue) => {
